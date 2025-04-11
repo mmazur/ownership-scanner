@@ -1,6 +1,7 @@
 azure-common
 azure-core
 azure-identity
+azure-mgmt-containerservice
 azure-mgmt-core
 azure-mgmt-resource
 kubernetes
