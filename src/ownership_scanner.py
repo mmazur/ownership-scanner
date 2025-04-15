@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
 from azure.identity import ManagedIdentityCredential
-from azure.mgmt.containerservice.v2025_01_01 import ContainerServiceClient
+from azure.mgmt.containerservice import ContainerServiceClient
 
 from kubernetes import config, client
 
