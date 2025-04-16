@@ -9,7 +9,7 @@ import yaml
 
 
 
-USER_ASSIGNED_CLIENT_ID = "d2becca6-a9cd-41cf-b133-e0c9049b6523"
+USER_ASSIGNED_CLIENT_ID = "a0174d3f-5600-4951-b8b8-1f9606fc4546"
 RESOURCE_GROUP = "hcp-underlay-dev-mgmt-1"
 AKS_CLUSTER_NAME = "dev-mgmt-1"
 
