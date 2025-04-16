@@ -11,7 +11,7 @@
 
 az aks install-cli
 
-az login --identity --object-id  d2becca6-a9cd-41cf-b133-e0c9049b6523
+az login --debug --identity --object-id  d2becca6-a9cd-41cf-b133-e0c9049b6523
 
 az aks get-credentials --resource-group hcp-underlay-dev-mgmt-1 --name dev-mgmt-1
 
