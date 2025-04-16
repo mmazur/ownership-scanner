@@ -7,7 +7,7 @@
 
 #python ./ownership_scanner.py
 
-curl -L https://aka.ms/InstallAzureCli | bash
+#curl -L https://aka.ms/InstallAzureCli | bash
 
 az aks install-cli
 
