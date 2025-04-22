@@ -7,7 +7,8 @@
 
 #python ./ownership_scanner.py
 
-#curl -L https://aka.ms/InstallAzureCli | bash
+# Workaround for https://github.com/microsoft/azure-container-apps/issues/502
+export APPSETTING_WEBSITE_SITE_NAME=yes
 
 echo "Install CLI"
 az aks install-cli
